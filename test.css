@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;font-size: 10px;color: black;}
+.Whisper-font{font-size: 2rem;font-weight: normal;}
+
+/* Header */
+.header{}
+.header1{width: 100%;height: 20vh;position: relative;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.header1>h1>a>img{height: 1.8rem;}
+.header2{width: 100%;height: 7vh; display: flex;}
+#gnb{padding-left: 4rem; width: 100%;height: 100%; display: flex; background-color: #CE2B2B;border-top:0.5px solid #222222;border-bottom:0.5px solid #222222;border-left:0.5px inset #222222;}
+#gnb>li{margin-left: 1.1rem; display: flex; flex-direction: column;align-items: center;justify-content: center;}
+#gnb>li>a{color: white;font-size: 0.9rem;}
+.header2>div{width: 13%;height: 100%; background-color: rgb(255, 255, 255);}
+
+/* Section */
+.section{}
+.slider{margin: 3rem auto; width: 70vw;height: 25rem; background-color: #ffffff; border: 0.5px solid #333;overflow: hidden;}
+.slides{width: 10000px;display: flex;}
+.slides>div{width: 1346px;height: 402px; background-image: url("./img/testtest1.jpg");background-position:right;background-repeat: no-repeat;}
+.section>h3{margin:1rem 0 0 6rem;}
+
+.section1{margin-top: 10rem; overflow: hidden;}
+.section1>div{width: 10000px;height: 40vh;display: flex;}
+.section1>div>div{width: 25vw;height: 100%; /*border: 0.5px solid #333;*/}
+.section1>div>div>ul{width: 60%;height: 60%;margin: 0 auto;text-align: center;}
+.section1>div>div>ul>li>a{display: block;}
+.section1>div>div>ul>li>a>img{display: block;width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Whisper'; /* 원하는 폰트 이름을 지정합니다. */
+    src: url('/Whisper-Regular.ttf') format('truetype'); /* TTF 폰트 파일의 경로를 지정합니다. */
+    /* 다른 포맷에 대한 지원도 추가할 수 있습니다. 예: WOFF, WOFF2 */
+}
+
+.Whisper-font {
+    font-family: 'Whisper', sans-serif; /* sans-serif는 대체 폰트로 사용됩니다. */
+}
